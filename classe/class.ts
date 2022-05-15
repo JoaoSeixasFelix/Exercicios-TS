@@ -1,11 +1,12 @@
 class Data {
+  month: number;
   day: number;
-  mounth: number;
   year: number;
 
-  constructor(day: number = 1, mounth: number = 1, year: number = 1970) {
+  constructor(mounth: number = 1, day: number = 1, year: number = 1970) {
+   
+    this.month = mounth;
     this.day = day;
-    this.mounth = mounth;
     this.year = year;
   }
 }

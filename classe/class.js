@@ -1,8 +1,8 @@
 "use strict";
 class Data {
-    constructor(day = 1, mounth = 1, year = 1970) {
+    constructor(mounth = 1, day = 1, year = 1970) {
+        this.month = mounth;
         this.day = day;
-        this.mounth = mounth;
         this.year = year;
     }
 }
